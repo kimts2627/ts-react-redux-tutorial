@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import CounterContainer from './containers/CounterContainer';
+import TodoContainer from './containers/TodoContainer';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <CounterContainer />
+    <TodoContainer />
   );
 }
 
