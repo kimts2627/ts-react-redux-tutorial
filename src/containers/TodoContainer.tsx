@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../modules';
-import { toggleTodo, removeTodo, addTodo } from '../modules/todo';
+import { toggleTodo, removeTodo, addTodo } from '../modules/todos';
 import TodoInsert from '../components/TodoInsert';
 import TodoList from '../components/TodoList';
 

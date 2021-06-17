@@ -1,5 +1,5 @@
 import React from 'react';
-import { Todo } from '../modules/todo';
+import { Todo } from '../modules/todos';
 import TodoItem from './TodoItem';
 
 interface TodoListProps {
